@@ -1,0 +1,150 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.header {
+    width: 1100%;
+    margin: auto;
+    position: relative;
+    background-color: #F0D9FF
+}
+
+.logo a{
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    color: #b93838;
+   padding-left: 67px;
+}
+
+.menu {
+    float: right; 
+}  
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration:none;
+}
+
+nav ul li a:hover {
+    text-decoration:dashed;
+    color:rgb(41, 165, 187);
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top:50px;
+    margin-bottom: 70px;
+    padding-top:50px
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight:bold;
+    font-family: 'comic sans ms';
+    color:#030303;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size:45px;
+    margin-bottom:20px;
+    color:#030303;
+    width:100%;
+    line-height:50px;
+}
+
+a.login {
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+a.login:hover {
+    background: #e00d0d;
+    text-decoration: none;
+}
+
+a.saya {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.saya:hover{
+    background: #FFBCBC;
+    text-decoration: none;
+}
+
+p {
+    margin: 5px 0px 5px 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+table, th, td {
+    border: 20px bold #a76286;
+    background:#FFBCBC;
+}
+
+table {
+    width: 100%;
+}
+
+.kontak {
+    min-height: 80vh;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: top;
+    color: rgb(58, 10, 10);
+}
+
+h2 {
+    color: black;
+}
+
+.kontak-box {
+    padding: 20px 50px;
+    background: #aaa;
+    width: 350px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+
